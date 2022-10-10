@@ -263,7 +263,7 @@ if __name__ == "__main__":
         parser.add_argument('--the', type=float,   default=0)
 
         parser.add_argument('--lr_gamma', type=float, default=0.1)
-        parser.add_argument('--lr_scheduler',  type=str, default='step')
+        parser.add_argument('--lr_scheduler',  type=str, default='None')
         parser.add_argument('--milestones', nargs='+', type=int, default=[3703,16,6])
 
         parser.add_argument('--device', type=int, default=0, help='which gpu to use if any (default: 0)')

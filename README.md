@@ -21,7 +21,6 @@ CUDA_VISIBLE_DEVICES=$GPU python -u main_adv_syn_it.py \
 --cau_reg 1.0 \
 --causaler_lr 0.001 \
 --attacker_lr 0.005 \
---lr_scheduler None \
 --test_epoch 10 --data_dir $DATA_DIR
 
 ```
@@ -52,7 +51,6 @@ CUDA_VISIBLE_DEVICES=$GPU python -u main_adv_syn_it.py \
 --dataset motif \
 --batch_size 512 \
 --epochs 100 \
---test_epoch 80 \
 --cau_gamma 0.5 \
 --adv_gamma 1.0 \
 --adv_gamma_edge 0.8 \
@@ -61,7 +59,7 @@ CUDA_VISIBLE_DEVICES=$GPU python -u main_adv_syn_it.py \
 --cau_reg 1.0 \
 --causaler_lr 0.001 \
 --attacker_lr 0.005 \
---lr_scheduler cos --data_dir $DATA_DIR
+--data_dir $DATA_DIR
 ```
 
  To run the code on Molhiv, please use the following command:
@@ -81,5 +79,5 @@ CUDA_VISIBLE_DEVICES=$GPU python -u main_adv_mol_it.py \
 --cau_reg 0.5 \
 --causaler_lr 0.01 \
 --attacker_lr 0.01 \
---lr_scheduler None --data_dir $DATA_DIR
+--data_dir $DATA_DIR
 ```

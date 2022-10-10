@@ -222,7 +222,7 @@ if __name__ == "__main__":
         parser.add_argument('--data_dir',  type=str, default='../../dataset', help='dataset dir')
         parser.add_argument('--ckpt',      type=str,   default="")
         parser.add_argument('--seed',      type=int,   default=666)
-        parser.add_argument('--test_epoch', type=int, default=10)
+        parser.add_argument('--test_epoch', type=int, default=70)
 
         parser.add_argument('--cau_gamma', type=float, default=0.4)
         parser.add_argument('--adv_gamma',  type=float,     default=1.0)
@@ -239,7 +239,7 @@ if __name__ == "__main__":
         parser.add_argument('--the', type=float,   default=0)
         parser.add_argument('--lr_decay', type=int, default=30)
         parser.add_argument('--lr_gamma', type=float, default=0.1)
-        parser.add_argument('--lr_scheduler',  type=str, default='step')
+        parser.add_argument('--lr_scheduler',  type=str, default='cos')
         parser.add_argument('--milestones', nargs='+', type=int, default=[40,60,80])
 
         parser.add_argument('--causaler_lr',     type=float, default=1e-3, help='Learning rate')

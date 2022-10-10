@@ -228,7 +228,7 @@ if __name__ == "__main__":
         parser.add_argument('--the', type=float,   default=0.5)
         parser.add_argument('--lr_decay', type=int, default=30)
         parser.add_argument('--lr_gamma', type=float, default=0.1)
-        parser.add_argument('--lr_scheduler',  type=str, default='others', help='color, background')
+        parser.add_argument('--lr_scheduler',  type=str, default='None', help='cos, step')
         parser.add_argument('--milestones', nargs='+', type=int, default=[40,60,80])
 
         parser.add_argument('--causaler_lr',     type=float, default=1e-3, help='Learning rate')
