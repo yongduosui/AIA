@@ -1,5 +1,5 @@
-# AdvCA
-We provide a detailed code for AdvCA.
+# AIA
+We provide a detailed code for AIA.
 
 ## Installations
 Main packages: PyTorch, Pytorch Geometric, OGB.
