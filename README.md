@@ -25,7 +25,6 @@ Create a folder ```dataset```, and then put the datasets into ```dataset```. The
 CUDA_VISIBLE_DEVICES=$GPU python -u main_adv_syn_it.py \
 --trails 10 \
 --dataset cmnist \
---batch_size 512 \
 --emb_dim 300 \
 --epochs 100 \
 --cau_gamma 0.5 \
@@ -47,7 +46,6 @@ CUDA_VISIBLE_DEVICES=$GPU python -u main_adv_mol_it.py \
 --trails 10 \
 --domain scaffold \
 --dataset ogbg-molbbbp \
---batch_size 32 \
 --epochs 100 \
 --emb_dim 64 \
 --cau_gamma 0.5 \
@@ -64,7 +62,6 @@ CUDA_VISIBLE_DEVICES=$GPU python -u main_adv_syn_it.py \
 --trails 10 \
 --domain basis \
 --dataset motif \
---batch_size 512 \
 --epochs 100 \
 --cau_gamma 0.5 \
 --adv_gamma 1.0 \
@@ -83,7 +80,6 @@ CUDA_VISIBLE_DEVICES=$GPU python -u main_adv_mol_it.py \
 --trails 10 \
 --domain size \
 --dataset hiv \
---batch_size 512 \
 --epochs 100 \
 --emb_dim 128 \
 --cau_gamma 0.1 \
