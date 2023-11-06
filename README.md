@@ -1,6 +1,8 @@
 # Unleashing the Power of Graph Data Augmentation on Covariate Distribution Shift
-We provide a detailed code for AIA.
+We provide a detailed code for "Unleashing the Power of Graph Data Augmentation on Covariate Distribution Shift".
+
 Yongduo Sui, Qitian Wu, Jiancan Wu, Qing Cui, Longfei Li, Jun Zhou, Xiang Wang, Xiangnan He.
+
 In NeurIPS 2023.
 
 ## Installations
