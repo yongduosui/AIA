@@ -1,5 +1,7 @@
-# AIA
+# Unleashing the Power of Graph Data Augmentation on Covariate Distribution Shift
 We provide a detailed code for AIA.
+Yongduo Sui, Qitian Wu, Jiancan Wu, Qing Cui, Longfei Li, Jun Zhou, Xiang Wang, Xiangnan He.
+In NeurIPS 2023.
 
 ## Installations
 Main packages: PyTorch, Pytorch Geometric, OGB.
