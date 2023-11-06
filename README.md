@@ -3,7 +3,7 @@ We provide a detailed code for "Unleashing the Power of Graph Data Augmentation 
 
 Yongduo Sui, Qitian Wu, Jiancan Wu, Qing Cui, Longfei Li, Jun Zhou, Xiang Wang, Xiangnan He.
 
-In NeurIPS 2023.
+In NeurIPS 2023: https://openreview.net/forum?id=hIGZujtOQv.
 
 ## Installations
 Main packages: PyTorch, Pytorch Geometric, OGB.
@@ -96,3 +96,18 @@ CUDA_VISIBLE_DEVICES=$GPU python -u main_adv_mol_it.py \
 --attacker_lr 0.01 \
 --data_dir $DATA_DIR
 ```
+
+## Citation
+If you use our codes or checkpoints, please cite our paper:
+```
+@inproceedings{sui2023unleashing,
+    title={Unleashing the Power of Graph Data Augmentation on Covariate Distribution Shift},
+    author={Sui, Yongduo and Wu, Qitian and Wu, Jiancan and Cui, Qing and Li, Longfei and Zhou, Jun and Wang, Xiang and He, Xiangnan},
+    booktitle={NeurIPS},
+    year={2023},
+    url={https://openreview.net/pdf?id=hIGZujtOQv}
+}
+```
+
+
+
